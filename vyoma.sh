@@ -7,6 +7,7 @@ pyenv global 3.8.10
 pip install --upgrade pip
 pip install cocotb
 clear
+
 echo "****** UpTickPro (Evaluation Version) 1.0.0 *******"
 echo "Copyright (c) 2022, Vyoma Systems Private Limited"
 echo "All Rights Reserved."
