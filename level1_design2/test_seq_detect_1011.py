@@ -48,7 +48,7 @@ async def test_seq_bug2(dut):
     print("-->",dut.next_state.value, dut.current_state.value, bool(dut.seq_seen.value))
 
     inp_seq = (1,1,0,1,1)
-
+    
     for i in range(len(inp_seq)):
         dut.inp_bit.value = inp_seq[i]
         #print("***",dut.next_state.value, dut.current_state.value, bool(dut.seq_seen.value))
